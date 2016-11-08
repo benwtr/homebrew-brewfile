@@ -5,7 +5,8 @@ tap 'caskroom/cask'
 
 cask 'firefox'
 cask 'google-chrome'
-cask 'google-chrome-canary'
+brew 'Caskroom/versions/google-chrome-canary'
+
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'xquartz'
 
@@ -68,7 +69,6 @@ brew 'watch'
 brew 'htop-osx'
 
 brew 'curl'
-brew 'curl-ca-bundle'
 brew 'wget'
 brew 'w3m'
 cask 'opera'
