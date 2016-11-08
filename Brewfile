@@ -2,6 +2,7 @@
 
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
+tap 'homebrew/dupes'
 
 tap 'caskroom/fonts'
 cask 'font-source-code-pro'
@@ -10,9 +11,21 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-profontx'
 
+# tap 'github/bootstrap'
+# brew bootstrap-rbenv-ruby
+# brew bootstrap-nodeenv-node
+
 cask 'firefox'
 cask 'google-chrome'
 cask 'google-chrome-canary'
+
+brew 'awscli'
+brew 'git'
+brew 'hub'
+brew 'tree'
+brew 'mackup'
+brew 'mas'
+
 
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'xquartz'
@@ -66,6 +79,8 @@ brew 'rbenv'
 
 # shell stuff
 brew 'zsh'
+brew 'zsh-completions'
+brew 'bash'
 brew 'fortune'
 brew 'coreutils'
 brew 'findutils'
@@ -108,8 +123,18 @@ cask 'imageoptim'
 cask 'sourcetree'
 cask 'spectacle'
 cask 'omnigraffle'
+cask 'aerial'
+cask 'caffeine'
+cask 'rescuetime'
+cask 'quip'
+cask 'sublime-text'
+cask 'virtualbox-extension-pack'
+cask 'dash'
+cask 'fluid'
 
 mas 'Growl', id: 467939042
 mas 'Airmail 3', id: 918858936
 mas 'Display Menu', id: 549083868 
 mas 'Twitter', id: 409789998
+mas 'Giphy Capture', id: 668208984
+mas 'Wunderlist', id: 410628904
