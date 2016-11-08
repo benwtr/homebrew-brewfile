@@ -3,9 +3,16 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 
+tap 'caskroom/fonts'
+cask 'font-source-code-pro'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+cask 'font-profontx'
+
 cask 'firefox'
 cask 'google-chrome'
-brew 'Caskroom/versions/google-chrome-canary'
+cask 'google-chrome-canary'
 
 cask 'java' unless system '/usr/libexec/java_home --failfast'
 cask 'xquartz'
@@ -61,6 +68,8 @@ brew 'rbenv'
 brew 'zsh'
 brew 'fortune'
 brew 'coreutils'
+brew 'findutils'
+brew 'psutils'
 brew 'figlet'
 brew 'mtr'
 brew 'nmap'
@@ -74,7 +83,6 @@ brew 'w3m'
 cask 'opera'
 
 brew 'markdown'
-brew 'kwm'
 brew 'nginx'
 brew 'tig'
 brew 'docker'
@@ -93,6 +101,15 @@ cask 'sequel-pro'
 cask 'skype'
 cask 'flux'
 cask 'monodraw'
+cask 'cord'
+cask 'chicken'
+cask 'alfred'
+cask 'imageoptim'
+cask 'sourcetree'
+cask 'spectacle'
+cask 'omnigraffle'
 
 mas 'Growl', id: 467939042
 mas 'Airmail 3', id: 918858936
+mas 'Display Menu', id: 549083868 
+mas 'Twitter', id: 409789998
