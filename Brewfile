@@ -15,7 +15,7 @@ brew 'librsvg'
 brew 'imagemagick'
 brew 'freetype'
 brew 'fontconfig'
-brew 'berkeley-db6
+brew 'berkeley-db4'
 
 # emacs
 tap 'd12frosted/emacs-plus'
